@@ -1,0 +1,18 @@
+[project]
+name = "hugchat"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv>=1.1.1",
+    "textual>=5.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "hugchat",
+]
+
+[tool.uv.sources]
+hugchat = { workspace = true }
